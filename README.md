@@ -1,4 +1,5 @@
- # Building testable WP7 apps using Microsoft.Practices.Phone.Adapters #
+Building testable WP7 apps using Microsoft.Practices.Phone.Adapters
+===================================================================
 
 <p>I’m a big believer in Test Driven Development as an effective practice that helps me write high quality, maintainable code. TDD is a practice I not only apply on larger enterprise applications, but something I try to do even on smaller mobile apps. In the day of the Apple App Store or Microsoft Marketplace you are relying on Apple or Microsoft to approve your application before it’s made available to your users. The process typically takes around a week – meaning it can potentially take a week before you fix a bug and the update is made available to the users. Introducing a bug in your mobile app can greatly hurt your rating in the Marketplace/App Store. Given the fact that you cannot simply upload a quick fix to the app stores, like you can on a web application, having solid testing for mobile applications is even more important than for other types of applications.</p>
 
