@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableGeoTrackerDemo", "TestableGeoTrackerDemo\TestableGeoTrackerDemo.csproj", "{B88A62D0-6A74-4018-9608-2D77DC4CA91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableGeoTrackerDemo.Test", "TestableGeoTrackerDemo.Test\TestableGeoTrackerDemo.Test.csproj", "{3D54A971-2F44-4F39-9186-6DE4FB42AE74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B88A62D0-6A74-4018-9608-2D77DC4CA91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88A62D0-6A74-4018-9608-2D77DC4CA91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88A62D0-6A74-4018-9608-2D77DC4CA91E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B88A62D0-6A74-4018-9608-2D77DC4CA91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88A62D0-6A74-4018-9608-2D77DC4CA91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88A62D0-6A74-4018-9608-2D77DC4CA91E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3D54A971-2F44-4F39-9186-6DE4FB42AE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D54A971-2F44-4F39-9186-6DE4FB42AE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D54A971-2F44-4F39-9186-6DE4FB42AE74}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D54A971-2F44-4F39-9186-6DE4FB42AE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D54A971-2F44-4F39-9186-6DE4FB42AE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D54A971-2F44-4F39-9186-6DE4FB42AE74}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
