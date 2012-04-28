@@ -26,11 +26,11 @@ To ensure that the View Model classes can be tested independently it is importan
 
 <p>With this small change we can now write unit tests for the TrackingViewModel-class. Here is an example of some of the tests I have written for the View Model.</p>
 
-<script src="https://gist.github.com/2520932.js?file=TrackingViewModelTest.cs"></script>
+<a href="https://github.com/follesoe/TestableGeoTrackerDemo/blob/master/TestableGeoTrackerDemo.Test/ViewModel/TrackingViewModelTest.cs">Click to view TaestableGeoTrackerDemo.cs Unit Test</a>.
 
 <p>Many people assume that you have to use an IoC-container to use Dependency Injection. That is not the case. My personal preference is to not introduce an IoC-container until it is necessary, and instead use overloaded constructors. The TrackingViewModel-class has two constructors, one that accepts the ICompass and IGeoCoordinateWatcher interfaces as parameters, and one default constructor that calls the parameterized constructor passing in the adapter classes as default. This enables testability, yet at the same time keeps the architecture of the application simple.</p>
 
-<script src="https://gist.github.com/2520938.js?file=TrackingViewModelCtr.cs"></script>
+<a href="https://github.com/follesoe/TestableGeoTrackerDemo/blob/master/TestableGeoTrackerDemo/ViewModel/TrackingViewModel.cs">Click to view TrackingViewModel.cs with Constructor Injection.</a>
 
 <p>In this example I only use two of the wrapped classes provided by the Microsoft.Practices.Phone.Adapters project. In addition the project contains adapters for the following classes in the Windows Phone 7.1 SDK:</p>
 
